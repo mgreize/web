@@ -1,0 +1,29 @@
+.section-2 {
+    height: 500px;
+    background: $grey-bg;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    div {
+        width: 22%;
+        text-align: center;
+
+        p {
+            margin-top: 15px;
+            color: grey;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+    }
+
+    a {
+        color: $blue-color;
+        font-size: 100px;
+    }
+}

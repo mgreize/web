@@ -1,0 +1,57 @@
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .line {
+        display: flex;
+        align-items: center;
+    }
+
+    .first {
+        margin: 0 100px;
+        width: 36%;
+        
+        
+    }
+
+    .second {
+        margin: 0 100px;
+        width: 36%;
+        order: 1;
+        
+    }
+
+    .third {
+        margin: 0 100px;
+        width: 36%;
+        
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    p {
+        color: grey;
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+
+    .img-1 {
+        width: 50%;
+        
+    }
+
+    .img-2 {
+        width: 49%;
+        
+              
+    }
+    .img-3 {
+        width: 50%;
+        
+    }
+}

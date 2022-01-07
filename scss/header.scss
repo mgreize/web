@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 2;
+;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 130px;
+        
+        .buisness {
+            font-size: 27px;
+            
+        }
+
+        button {
+            padding: 13px 13px;
+            font-size: 20px;
+            border: none;
+            border-radius: 4px;
+            background: $blue-color;
+            color: white;
+            
+        }
+
+    }
+    
+}
